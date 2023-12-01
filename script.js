@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function handleUserMessage(userInput) {
-        // Simple bot responses based on user input
         userInput = userInput.toLowerCase();
         if (userInput.includes("hello")) {
             return `Hello ${userNameInput.value} How can I help you?`;
