@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+#chat-container {
+  max-width: 600px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#messages {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  max-height: 300px;
+}
+#messages li {
+  margin-bottom: 10px;
+}
+#input-container {
+  display: flex;
+  margin-top: 20px;
+}
+#user-name-input {
+  margin-right: 10px;
+  padding: 10px;
+}
+#message-input {
+  flex: 1;
+  padding: 10px;
+}
+#send-button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#clear-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#mic-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
